@@ -13,8 +13,8 @@ warnings.filterwarnings("ignore")
 # ==========================================
 BASE_DIR = Path(__file__).resolve().parent if "__file__" in globals() else Path.cwd()
 
-MODEL_PATH = BASE_DIR / "BFRC_XGB_抗折_抗折强度_Mpa.pkl"
-DATA_PATH = BASE_DIR / "1BFRC.xlsx"
+MODEL_PATH = BASE_DIR / "HGB.pkl"
+DATA_PATH = BASE_DIR / "BFRC.xlsx"
 SHEET_NAME = "抗折"
 TARGET_COLUMN = "抗折强度/Mpa"
 
