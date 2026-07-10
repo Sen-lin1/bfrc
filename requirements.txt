@@ -1,6 +1,7 @@
-streamlit        
-joblib        
-numpy         
-pandas          
-matplotlib         
-openpyxl 
+streamlit
+pandas
+numpy
+joblib
+openpyxl
+scikit-learn
+xgboost
